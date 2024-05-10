@@ -1,0 +1,29 @@
+.contact {
+    background: linear-gradient(to top, #000, #ffffff);
+    color: #000;
+    height:300px;
+    padding: 50px ;
+    font-size: larger;
+    text-align: center;
+}
+.contact .container h2{
+    font-size: xx-large;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1px;
+    padding-bottom: 15px;
+}
+
+.contact p {
+    display: inline;
+    /* margin-right: 20px; */
+    margin-left: 30px;
+    
+}
+.lorem {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+

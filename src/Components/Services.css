@@ -1,0 +1,51 @@
+.service {
+    background-color: #ffffff; /* Light gray background */
+    padding: 50px ; /* Add some padding for spacing */
+}
+
+.service .container h2 {
+    font-size: xx-large;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 30px; /* Add some bottom margin for spacing */
+}
+
+.service-item {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px  2px 2px black;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Add a subtle box shadow for depth */
+}
+
+.service-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px black;
+    cursor:pointer;
+
+}
+/* .services:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px black;
+    cursor:pointer;
+} */
+h3 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold; /* Increase font size for service item headings */
+}
+
+.service-item p {
+    font-size: 16px; /* Adjust font size for service item descriptions */
+    color: #666; /* Dim the text color for descriptions */
+}

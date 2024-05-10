@@ -1,0 +1,40 @@
+.products{
+    background: linear-gradient(to top, #ffffff, #ffffff);
+    color: black;
+    padding: 50px;
+
+
+}
+.products .container h2 {
+    font-size: xx-large;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}   
+
+.product {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px  2px 2px black;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Add a subtle box shadow for depth */
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px black;
+    cursor:pointer;
+}
+
+.product h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
